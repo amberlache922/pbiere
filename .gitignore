@@ -5,6 +5,12 @@
 #
 # Note: if you want to stage/commit WP core files
 # you can delete this whole section/until Configuration.
+# Ignore everything in the "wp-content" directory, except the "plugins"
+# and "themes" directories.
+wp-content/*
+
+!wp-content/themes/
+
 /wp-admin/
 /wp-content/index.php
 /wp-content/languages
